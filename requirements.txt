@@ -1,0 +1,4 @@
+# Dependencies for lab_baseline (agent.py + eval.py).
+# Everything else used is in the Python standard library.
+google-adk>=2.3.0
+google-genai>=2.10.0

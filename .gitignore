@@ -1,0 +1,15 @@
+# Ignore home directory and runtime artifacts by default
+/*
+
+# Track only the lab repository files
+!.gitignore
+!README.md
+!requirements.txt
+!agent.py
+!eval.py
+!tasks/
+!tasks/**
+
+# Always ignore Python bytecode caches
+**/__pycache__/
+*.pyc
